@@ -16,7 +16,7 @@ const LoginForm = () => {
       console.log("login details : ", value)
       if(value.email=="jayanthgummitha@gmail.com" && value.password == "Jayanth0305@"){
         navigate("/my-profile");
-        PersonIcon=1;
+        // PersonIcon=1;
       }
       else{
         navigate("/");
